@@ -1,0 +1,104 @@
+/* General button styling */
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* 3a. Uber Button */
+.uber-button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.uber-button:hover {
+    opacity: 1;
+}
+
+/* 3b. Amazon Button */
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.amazon-button:hover {
+    background-color: rgb(255, 204, 0);
+}
+
+/* 3c. GitHub Button */
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.github-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 3d. Bootstrap Buttons */
+.bootstrap-get-started {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.bootstrap-download {
+    background-color: rgb(108, 117, 125);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.bootstrap-get-started:hover {
+    background-color: rgb(101, 72, 159);
+}
+
+.bootstrap-download:hover {
+    background-color: rgb(88, 97, 105);
+}
+
+/* 3e. LinkedIn Buttons */
+.linkedin-apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.linkedin-save {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.linkedin-apply:hover {
+    background-color: rgb(0, 92, 174);
+}
+
+.linkedin-save:hover {
+    border: 3px solid black;
+}
